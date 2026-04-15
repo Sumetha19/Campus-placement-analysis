@@ -1,11 +1,11 @@
 # 📊 College Placement Analysis Dashboard
 
 ## 📌 Overview
-This project analyzes student placement data and provides insights through an interactive dashboard.
+This project analyzes student placement data and provides insights using an interactive dashboard built with Streamlit.
 
 ## 🚀 Features
 - Placement rate analysis
-- Gender-based insights
+- Gender vs placement insights
 - Salary distribution
 - Degree percentage analysis
 - Correlation heatmap
@@ -14,10 +14,21 @@ This project analyzes student placement data and provides insights through an in
 ## 🛠 Tech Stack
 - Python
 - Pandas
-- Seaborn & Matplotlib
+- Seaborn
+- Matplotlib
 - Streamlit
 
-## ▶️ Run the Project
-```bash
-pip install -r requirements.txt
-streamlit run dashboard.py
+## ▶️ How to Run
+pip install -r requirements.txt  
+streamlit run dashboard.py  
+
+## 📈 Key Insights
+- Higher degree percentage increases placement chances  
+- Work experience improves placement probability  
+- Majority of students are placed (~65–70%)  
+
+## 📁 Dataset
+Campus Placement Dataset (Kaggle)
+
+## 👩‍💻 Author
+Sumetha N
